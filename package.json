@@ -14,7 +14,7 @@
     "url": "https://github.com/nextjlc/core"
   },
   "files": [
-    "nextjlc.wasm",
+    "nextjlc_bg.wasm",
     "nextjlc.js",
     "nextjlc.d.ts"
   ],
