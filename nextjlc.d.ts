@@ -1,11 +1,29 @@
 /* tslint:disable */
 /* eslint-disable */
+export function process_d_codes(gerber_data: string): string;
+export function identify_software(content: string): string | undefined;
+export function add_fingerprint(gerber_content: string, is_foreign_board_file: boolean): string;
+export function add_gerber_header(content: string): string;
+export function get_order_guide_text(): string;
+export function sort_gerber_files(files: string[]): string[];
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
-  readonly __wbindgen_export_0: WebAssembly.Table;
+  readonly process_d_codes: (a: number, b: number) => [number, number];
+  readonly identify_software: (a: number, b: number) => [number, number];
+  readonly add_fingerprint: (a: number, b: number, c: number) => [number, number];
+  readonly add_gerber_header: (a: number, b: number) => [number, number];
+  readonly get_order_guide_text: () => [number, number];
+  readonly sort_gerber_files: (a: number, b: number) => [number, number];
+  readonly __wbindgen_exn_store: (a: number) => void;
+  readonly __externref_table_alloc: () => number;
+  readonly __wbindgen_export_2: WebAssembly.Table;
+  readonly __wbindgen_malloc: (a: number, b: number) => number;
+  readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+  readonly __wbindgen_free: (a: number, b: number, c: number) => void;
+  readonly __externref_drop_slice: (a: number, b: number) => void;
   readonly __wbindgen_start: () => void;
 }
 
