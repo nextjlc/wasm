@@ -7,7 +7,7 @@
     "Acha <acha@acha666.cn>"
   ],
   "description": "A powerful library to convert and streamline Gerber file preparation for JLC.",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
